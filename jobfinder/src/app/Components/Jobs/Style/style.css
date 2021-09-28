@@ -1,0 +1,20 @@
+.bottom
+{
+margin:0;
+width:60%;
+position: absolute;
+top:75%;
+left:50%;
+transform: translate(-50%,0%);
+}
+
+.fade
+{
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

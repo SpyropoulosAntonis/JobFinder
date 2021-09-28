@@ -1,0 +1,47 @@
+.typewriter
+{
+margin:0;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-100%);
+}
+
+.center
+{
+margin:0;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,0%);
+}
+
+.selectable:hover
+{   
+    color:grey;
+    cursor: pointer;
+    font-size: 130%;
+}
+
+.suggestions
+{   margin-top:3px !important;
+    width:192.39px;
+    overflow: scroll;
+    max-height:150px;
+}
+
+.suggestions::-webkit-scrollbar
+{
+display: none;
+}
+
+.fade
+{
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
