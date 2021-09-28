@@ -1,5 +1,5 @@
 
-# Job Finder an modern react App
+# Job Finder a modern react App
 
 Search and find Jobs around the world fast and easy,
 Works with open GraphQL API 
