@@ -30,7 +30,7 @@ const JobModal: React.FC<Props> = (props) => {
                     <GridColumn width="4">
                         <Image size='medium' src={props.Job.company && props.Job.company.logoUrl || "https://yashiindia.com/wp-content/uploads/2017/07/no-logo-available.gif"} wrapped />
                         {props.Job.tags && props.Job.tags.map((tag)=>(
-                            <Label key={tag.id} style={{marginTop:"3px"}}>{tag.name}</Label>
+                            <Label style={{marginTop:"3px"}}>{tag.name}</Label>
                         ))}
                     </GridColumn>
                     <GridColumn width="12">
